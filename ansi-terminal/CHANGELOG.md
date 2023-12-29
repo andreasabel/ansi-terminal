@@ -1,6 +1,12 @@
 Changes
 =======
 
+Version 1.1
+-----------
+
+* Add support for console layer `Underlining` and underlining styles
+  `CurlyUnderline`, `DottedUnderline` and `DashedUnderline`.
+
 Version 1.0.3
 -------------
 
