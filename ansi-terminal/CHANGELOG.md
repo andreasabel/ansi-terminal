@@ -1,6 +1,15 @@
 Changes
 =======
 
+Version 1.0.3
+-------------
+
+* Add type synonyms `Parameter`, `SubParam`, and `ParamWithSubs` to represent
+  SGR parameter values with and without following parameter substrings comprised
+  of one or more parameter elements (including empty elements).
+* Add `csi'` and `sgrToCode'`, corresponding to `csi` and `sgrToCode` but
+  capable of handling a parameter value followed by a parameter substring.
+
 Version 1.0.2
 -------------
 
@@ -22,7 +31,6 @@ Version 1.0.1
 * Deprecated `hSupportsANSIWithoutEmulation` is now consistent with
   `hNowSupportsANSI`.
 * Improvements to Haddock documentation.
-
 Version 1.0
 -----------
 
